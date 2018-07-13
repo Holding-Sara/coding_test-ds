@@ -45,10 +45,14 @@ consultation. Your job is to create a system to give that estimate.
 
 After the assessment, patients will wait until any of the 6 doctors working at the clinic are free. If none is free, \
 patients will wait in a FIFO virtual queue. If a a new patient receives an `urgent` assessment, she will wait in the \
-`urgent` FIFO virtual queue. Vacant doctors will always receive first patients from that queue. At the moment they call \
+`urgent` FIFO virtual queue. Vacant doctors will always first receive patients from that queue. At the moment they call \
 a new patient, doctors can see the size of both queues.
 
 Consultations don't have a fixed duration. Instead, doctors give patients the attention demanded by their cases.
+
+The data provided refers to a continuous sequence of working days. Your model will be evaluated against the following 5 \
+days. For your convenience, a csv summarizing data in a tabular format is provided. That file can be used to train your \
+model if you wish so.
 
 ### Details
 
