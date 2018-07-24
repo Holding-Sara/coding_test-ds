@@ -63,8 +63,8 @@ You will need to:
 * Create a local git repository
 * Download the Python files provided: `evaluate.py`, `file_evaluation.py` and `your_model.py` 
 * Install Python 3 in a virtual environment
-* Download the dataset for this task from your e-mail. (__Note:__ after downloading the data, you will need to submit \
-your solution within 52 hours)
+* Download the dataset for this task from your e-mail. (__Note:__ There is no limit on the time you need to return your \
+solution. However that time will be taken into consideration when analyzing your solution.)
 * Create a program to (re-)train and serialize a model to solve the problem.
 * Create a program to use the trained model in the evaluation of additional data. (Integrate it in `your_model.py`)
 * Submit your repo and your presentation within the deadline
