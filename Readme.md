@@ -51,13 +51,14 @@ a new patient, doctors can see the size of both queues.
 Consultations don't have a fixed duration. Instead, doctors give patients the attention demanded by their cases.
 
 The data provided refers to a continuous sequence of working days. Your model will be evaluated against the following 5 \
-days. For your convenience, a csv summarizing data in a tabular format is provided. That file can be used to train your \
-model if you wish so.
+days. For your convenience, a csv summarizing data in a tabular format is provided. That file is intended as a shortcut for\
+your first exploratory analises. That file can also be enriched with new features and used to train your model if you wish \
+so.
 
 ### Details
 
-For this task you can use any language of your choice for analysis and modeling. However you will need to \
-integrate your model with the provided evaluation code in Python 3.
+For this task you can use any language of your choice for analysis and modeling. However you will need to integrate your \
+model with the provided evaluation code in Python 3.
 
 You will need to:
 * Create a local git repository
@@ -96,8 +97,9 @@ Your findings should focus on any relevant facts about the problem or concerns a
 by the clinic.
 
 The questions we want you to answer in your presentation are:
+* Is it better to break down the problem into the forecasting of different components? Why?
 * What is the relationship between patient temperature and consultation duration?
 * Is there a relationship between time of the day and consultation duration? What could likely explain that?
-* Apart from the assessment result (_normal_, _urgent_), What is the feature that is more relevant for the problem?
+* Apart from the assessment result (_normal_, _urgent_), what is the feature that is more relevant for the problem?
 * What is your opinion about the scoring metric implemented in `evaluate.py`? Is there real-world support for it?
 * If you had more days to work on the solution, how would you architect the solution?
