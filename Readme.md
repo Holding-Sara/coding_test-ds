@@ -2,35 +2,7 @@
 
 This repository was created to host the helper files for the Data Scientist role challenge.
 
-## Evaluation criteria
-
-Things we like:
-* __Code readability, documentation and testing__ - We like code that is easy to read. PEP8 is a good start. Names for \
-functions and variables should be self-explanatory. Documentation is good, but it is even better when it is not \
-needed. Unit tests and doc-tests should be commonplace in production code, and can sometimes improve \
-the reliability of analysis code. Same-order performance improvements are nice, but code simplicity is \
-even nicer.
-* __Understanding of the problem__ - Models should be build with a clear objective in mind. Evaluation \
-metrics should be aligned with the objectives of the model. Understanding the real-life mechanics of the \
-phenomena being modeled is crucial to coming up with the right approach.
-* __Discovering THE features__ - Sometimes the features that really matter are hidden within the data. \
-Spending time analyzing the data, treating and manipulating it, can reveal the information key to solve \
-the problem.
-
-We want you to:
-* Analyze the data with care
-* Create a small presentation about your findings, and answering our specific questions
-* Train a prediction model and integrate it with our evaluation code
-* Submit the repo with your working history
-
-You don't need to:
-* Try several different models to try to improve your score by subdecimal points
-* Over-document or spend too much time writing tests
-* Keep a history of several variations of each of your analysis until you got the good ones
-* Spend too much time overdoing it
-* Spend too little time and miss the important findings for the solution 
- 
- ## The problem - Consultation finishing time estimation at a clinic
+## The problem - Consultation finishing time estimation at a clinic
 
 On this task you will have to create a model to predict the time a patient will leave a clinic, after having a \
 consultation with a doctor, in an appointment-free service.
@@ -48,7 +20,8 @@ patients will wait in a FIFO virtual queue. If a a new patient receives an `urge
 `urgent` FIFO virtual queue. Vacant doctors will always first receive patients from that queue. At the moment they call \
 a new patient, doctors can see the size of both queues.
 
-Consultations don't have a fixed duration. Instead, doctors give patients the attention demanded by their cases.
+Consultations don't have a fixed duration. Instead, doctors are supposed to give patients the attention demanded by their \
+cases.
 
 The data provided refers to a continuous sequence of working days. Your model will be evaluated against the following 5 \
 days. For your convenience, a csv summarizing data in a tabular format is provided. That file is intended as a shortcut for\
@@ -103,3 +76,30 @@ The questions we want you to answer in your presentation are:
 * Apart from the assessment result (_normal_, _urgent_), what is the feature that is more relevant for the problem?
 * What is your opinion about the scoring metric implemented in `evaluate.py`? Is there real-world support for it?
 * If you had more days to work on the solution, how would you architect the solution?
+
+## Evaluation criteria
+
+Things we like:
+* __Code readability, documentation and testing__ - We like code that is easy to read. PEP8 is a good start. Names for \
+functions and variables should be self-explanatory. Documentation is good, but it is even better when it is not \
+needed. Unit tests and doc-tests should be commonplace in production code, and can sometimes improve the reliability of \
+analysis code. Same-order performance improvements are nice, but code simplicity is even nicer.
+* __Understanding of the problem__ - Models should be build with a clear objective in mind. Evaluation metrics should be \
+aligned with the objectives of the model. Understanding the real-life mechanics of the phenomena being modeled is crucial \
+to coming up with the right approach.
+* __Discovering THE features__ - Sometimes the features that really matter are hidden within the data. Spending time \
+analyzing the data, treating and manipulating it, can reveal the information key to solve the problem.
+
+We want you to:
+* Analyze the data with care
+* Create a small presentation about your findings, and answering our specific questions
+* Train a prediction model and integrate it with our evaluation code
+* Submit the repo with your working history
+
+You don't need to:
+* Try several different models to try to improve your score by subdecimal points
+* Over-document or spend too much time writing tests
+* Keep a history of several variations of each of your analysis until you got the good ones
+* Spend too much time overdoing it
+* Spend too little time and miss the important findings for the solution 
+ 
