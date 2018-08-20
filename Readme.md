@@ -2,6 +2,11 @@
 
 This repository was created to host the helper files for the Data Scientist role challenge.
 
+The instructions below imply some degree of knowledge of an extensive set of skills related to professional Data Science \
+work. Unless you are applying for a senior position, it is OK if you are not familiar with some of those skills (E.g. using\
+git or integrating models with Python production code) - just focus on deliverying the pieces you know, within a reasonable\
+time, like you would normally do at work. It is also OK to ask for clarifications or prioritization guidance.
+
 ## The problem - Consultation finishing time estimation at a clinic
 
 On this task you will have to create a model to predict the time a patient will leave a clinic, after having a \
@@ -102,4 +107,3 @@ You don't need to:
 * Keep a history of several variations of each of your analysis until you got the good ones
 * Spend too much time overdoing it
 * Spend too little time and miss the important findings for the solution 
- 
